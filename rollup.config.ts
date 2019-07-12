@@ -41,10 +41,8 @@ export default [{
 {
   input: `src/${libraryName}.ts`,
   output: [
-    {file: pkg.min, name: camelCase(libraryName), format: 'umd'},
+    { file: pkg.mainMin, name: camelCase(libraryName), format: 'umd', sourcemap: false },
   ],
-  // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
-  sourcemap: false,
   external: [],
   watch: {
     include: 'src/**',
@@ -60,10 +58,10 @@ export default [{
     // which external modules to include in the bundle
     // https://github.com/rollup/rollup-plugin-node-resolve#usage
     resolve(),
-
+    uglify(),
     // Resolve source maps to the original source
     sourceMaps(),
-    uglify(),
+
   ],
 }
 ]

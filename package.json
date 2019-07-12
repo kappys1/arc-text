@@ -5,6 +5,7 @@
   "keywords": [],
   "main": "dist/arc-text.umd.js",
   "module": "dist/arc-text.es5.js",
+  "mainMin": "dist/arc-text.umd.min.js",
   "typings": "dist/types/arc-text.d.ts",
   "files": [
     "dist"
@@ -12,7 +13,7 @@
   "author": "alex marcos <alexsbd1@gmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/kappys1/arc-text"
   },
   "license": "MIT",
   "engines": {

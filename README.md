@@ -21,7 +21,7 @@ In a browser:
 
 Load ES module:
 ```js
-import ArcText from 'arc-text';;
+import ArcText from 'arc-text';
 ```
 
 ## API
@@ -73,7 +73,7 @@ arcText.direction();
 
 ### Inspired
 
-this library is inspired in [CircleType](https://github.com/peterhry/CircleType).
+this library is inspired in [CircleType](https://github.com/peterhry/CircleType) 
 
 ### Author
 Alex Marcos Gutierrez
