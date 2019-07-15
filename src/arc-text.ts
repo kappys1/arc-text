@@ -19,7 +19,7 @@ export default class ArcText {
   private dir: number
   private raf: any
 
-  constructor(elm: HTMLElement, splitter: any) {
+  constructor(elm: HTMLElement, splitter: any = undefined) {
     this.element = elm
     this.originalHTML = this.element.innerHTML
 
