@@ -3,7 +3,7 @@
 >Is a Library to curve any text font on the web.
 
 
-[![npm version](https://badge.fury.io/js/arc-text.svg)](https://badge.fury.io/js/arc-text) ![licence](https://img.shields.io/badge/licence-MIT-blue.svg?style=flat)
+[![npm version](https://badge.fury.io/js/arc-text.svg)](https://badge.fury.io/js/arc-text) ![licence](https://img.shields.io/badge/licence-MIT-blue.svg?style=flat) [![Build Status](https://travis-ci.org/kappys1/arc-text.svg?branch=master)](https://travis-ci.org/kappys1/arc-text)
 
 <!-- ## Demo -->
 <!-- > demos available [here](https://kappys1.github.io/ngx-carousel) -->
