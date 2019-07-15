@@ -12,5 +12,6 @@
       ]
     }],
   ],
-  "branch": "master"
+  "branch": "master",
+  "dryRun": true
 }
