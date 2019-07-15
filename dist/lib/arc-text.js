@@ -4,6 +4,7 @@ var utils_1 = require("./utils");
 var PI = Math.PI, max = Math.max, min = Math.min;
 var ArcText = /** @class */ (function () {
     function ArcText(elm, splitter) {
+        if (splitter === void 0) { splitter = undefined; }
         this.element = elm;
         this.originalHTML = this.element.innerHTML;
         var container = document.createElement('div');

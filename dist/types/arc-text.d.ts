@@ -12,7 +12,7 @@ export default class ArcText {
     private radius;
     private dir;
     private raf;
-    constructor(elm: HTMLElement, splitter: any);
+    constructor(elm: HTMLElement, splitter?: any);
     forceWidth(value: boolean): boolean | this;
     forceHeight(value: boolean): boolean | this;
     /**
