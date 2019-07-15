@@ -1,10 +1,6 @@
 import { IRect } from './interfaces'
 import { splitNode, getRect, chord, sagitta, getLetterRotations } from './utils'
 
-// Import here Polyfills if needed. Recommended core-js (npm i -D core-js)
-// import "core-js/fn/array.find"
-// ...
-
 const { PI, max, min } = Math
 
 export default class ArcText {

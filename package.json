@@ -2,7 +2,13 @@
   "name": "arc-text",
   "version": "0.0.0-development",
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "arc",
+    "text",
+    "curve",
+    "arc-type",
+    "curve-type"
+  ],
   "main": "dist/arc-text.umd.js",
   "module": "dist/arc-text.es5.js",
   "mainMin": "dist/arc-text.umd.min.js",
@@ -43,13 +49,13 @@
       "git add"
     ]
   },
-  "publishConfig": {
-    "access": "public",
-    "tag": "latest"
-  },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
+    },
+    "validate-commit-msg": {
+      "types": "conventional-commit-types",
+      "helpMessage": "Use \"npm run commit\" instead, we use conventional-changelog format :) (https://github.com/commitizen/cz-cli)"
     }
   },
   "jest": {
@@ -127,7 +133,8 @@
     "tslint-config-prettier": "^1.15.0",
     "tslint-config-standard": "^8.0.1",
     "typedoc": "^0.14.2",
-    "typescript": "^3.0.3"
+    "typescript": "^3.0.3",
+    "core-js": "3.1.4"
   },
   "dependencies": {}
 }
