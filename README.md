@@ -43,7 +43,7 @@ import ArcText from 'arc-text';
 
 **Arc-text radius**
 ```js
-const arcText = new ArctText(document.getElementById('myElement'));
+const arcText = new ArcText(document.getElementById('myElement'));
 
 // Set the radius to 150 pixels.
 arcText.arc(150);
@@ -51,7 +51,7 @@ arcText.arc(150);
 
 **Arc-text get radius**
 ```js
-const arcText = new ArctText(document.getElementById('myElement'));
+const arcText = new ArcText(document.getElementById('myElement'));
 
 // get the radius to 150 pixels.
 arcText.arc();
@@ -59,7 +59,7 @@ arcText.arc();
 
 **Arc-text direction**
 ```js
-const arcText = new ArctText(document.getElementById('myElement'));
+const arcText = new ArcText(document.getElementById('myElement'));
 
 // Set the direction to counter-clockwise.
 arcText.direction(-1);
